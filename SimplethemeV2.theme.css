@@ -105,6 +105,18 @@
 	--window-margin: 20;
 }
 
+:root {
+  --window-border-radius: 10px;
+}
+
+.theme-dark{
+  --background-tertiary-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), var(--window-opacity));
+  --background-tertiary-80a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 0.8);
+  --background-tertiary-90a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 0.9);
+  --background-accent: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-accent-l), 1);
+}
+
+
 #app-mount,
 body,
 .app_b1f720,
