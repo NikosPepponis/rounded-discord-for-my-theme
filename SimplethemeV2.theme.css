@@ -485,3 +485,22 @@ html.app-focused .side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda:not([cl
 .platform-win .typeWindows__5fa63 .wordmark__0d178 g {
   display: none;
 }
+.listItem_fa7b36 > *,
+.toolbar__88c63 > *,
+.platform-win .topicClickTarget_eeb305,
+.cursorPointer__5116a.title__9e2b0,
+.sidebarRegion__60457,
+.closeButton__34341,
+[class*=menu-][role=menu] {
+  -webkit-app-region: no-drag;
+}
+
+.platform-win .typeWindows__5fa63::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: calc(var(--window-margin) * 1px);
+  width: 100%;
+  -webkit-app-region: drag;
+}
