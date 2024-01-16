@@ -500,3 +500,12 @@
     width: 100%;
     -webkit-app-region: drag;
   }
+
+.colorDanger_fd4e9b{
+    border-radius: 10px;
+    transition: 150ms;
+    transform: scale(0.97) !important;
+    margin-bottom: 10px;
+    border: solid 1.5px black;
+    box-shadow: 2px 2px 2px rgba(77, 77, 77, 0.534);
+}
